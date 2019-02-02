@@ -4,7 +4,7 @@
 @import '~@nebular/theme/styles/themes';
 
 // which themes you what to enable (empty to enable all)
-$nb-enabled-themes: (default, cosmic, corporate);
+$nb-enabled-themes: (default);
 
 $nb-themes: nb-register-theme((
  // app wise variables for each theme
@@ -12,8 +12,36 @@ $nb-themes: nb-register-theme((
   sidebar-header-height: initial,
   layout-content-width: 1400px,
 
-  font-main: Roboto,
+  font-main: Arial,
   font-secondary: Exo,
+
+  header-bg: #FAA325,
+  header-fg: #FFFFFF,
+  calendar-selected-item-bg: #FAA325,
+  calendar-hover-item-bg: #FAA325,
+  calendar-active-item-bg: #FAA325,
+  color-success: #40dc7e,
+  link-color: #FAA325,
+  link-color-visited: #FAA325,
+  color-fg-highlight: #FAA325,
+  link-color-hover: #FAA325,
+  menu-submenu-active-border-color: #FAA325,
+  tabs-selected: #FAA325,
+  tabs-selected-second-color: #FAA325,
+  route-tabs-selected: #FAA325,
+  btn-primary-bg: #FAA325,
+
+  color-primary: #2B4162,
+  card-header-primary-bg: #2B4162,
+  badge-primary-bg-color: #2B4162,
+  progress-bar-primary-bg: #2B4162,
+  alert-primary-bg: #2B4162, 
+  chat-primary-bg: #2B4162, 
+  spinner-primary-bg: #2B4162, 
+  tooltip-primary-bg: #2B4162, 
+
+
+
 
   switcher-background: #ebeff5,
   switcher-background-percentage: 50%,

@@ -7,6 +7,10 @@
   justify-content: space-between;
   width: 100%;
 
+  .nb-theme-default {
+    color: #ffffff;
+ }
+
   .left {
     display: flex;
     width: 100%;
@@ -28,6 +32,7 @@
     display: block;
   }
 
+
   .header-container {
     display: flex;
     align-items: center;
@@ -38,9 +43,11 @@
       @include nb-rtl(padding-left, nb-theme(padding));
       font-size: 2.5rem;
       text-decoration: none;
+      color: nb-theme(color-white);
 
       i {
         display: block;
+        color: nb-theme(color-white);
       }
 
     }
@@ -57,6 +64,8 @@
         font-weight: nb-theme(font-weight-normal);
       }
     }
+
+
   }
 
   @include nb-for-theme(corporate) {
@@ -100,7 +109,7 @@
     line-height: 1;
 
     i {
-      color: nb-theme(color-fg-highlight);
+      color: nb-theme(color-white);
       font-size: 2.25rem;
       border-radius: 50%;
       position: relative;
